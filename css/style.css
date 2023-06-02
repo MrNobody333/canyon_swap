@@ -113,9 +113,9 @@ ul {
 }
 
 .container {
-  max-width: 127.8rem;
+  max-width: 1278px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 15px;
 }
 
 /* Page 1
@@ -125,8 +125,8 @@ ul {
 .logo-group {
   display: flex;
   align-items: center;
-  gap: 4rem;
-  padding-top: 4.5rem;
+  gap: 40px;
+  padding-top: 45px;
 }
 
 .logo-group a {
@@ -147,7 +147,7 @@ ul {
 
 .nav ul {
   display: flex;
-  gap: 2rem;
+  gap: 20px;
   font-size: 1.4rem;
   color: rgba(255, 255, 255, .7);
 }
@@ -168,12 +168,12 @@ ul {
 }
 
 .options__inner {
-  margin-right: .5rem;
-  border-radius: 3rem;
+  margin-right: 5px;
+  border-radius: 30px;
   font-size: 1.2rem;
   line-height: 1.4rem;
   background-color: #222342;
-  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, .25);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
 }
 
 .options__inner:first-child {
@@ -185,40 +185,40 @@ ul {
 }
 
 .options__inner a {
-  gap: .4rem;
-  padding: .8rem .7rem;
+  gap: 4px;
+  padding: 8px 7px;
 }
 
 .options__inner:first-child a::after {
   content: "";
   display: block;
-  width: .55rem;
-  height: .55rem;
-  margin: 0 0 .3rem .3rem;
-  border-right: .2rem solid rgba(255, 255, 255, .7);
-  border-bottom: .2rem solid rgba(255, 255, 255, .7);
+  width: 5.5px;
+  height: 5.5px;
+  margin: 0 0 3px 3px;
+  border-right: 2px solid rgba(255, 255, 255, .7);
+  border-bottom: 2px solid rgba(255, 255, 255, .7);
   transform: rotate(45deg);
 }
 
 .options__inner svg {
-  width: 1.8rem;
-  height: 1.8rem;
+  width: 18px;
+  height: 18px;
   opacity: .7;
 }
 
 /* Main
 ============================ */
 main {
-  margin: 5rem 0 28.6rem;
+  margin: 50px 0 286px;
 }
 
 .exchange {
   margin: 0 auto;
-  padding: 2rem;
-  max-width: 52.3rem;
-  border-radius: 2rem;
+  padding: 20px;
+  max-width: 523px;
+  border-radius: 20px;
   background: linear-gradient(180deg, #222342 0%, rgba(34, 35, 66, .2) 100%);
-  filter: drop-shadow(0px 4px 40px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 40px rgba(0, 0, 0, .25));
 }
 
 .toggle {
@@ -227,7 +227,7 @@ main {
 }
 
 .toggle:first-child {
-  margin-right: 1.4rem;
+  margin-right: 14px;
 }
 
 .toggle_active {
@@ -237,9 +237,9 @@ main {
 
 .block-sell {
   position: relative;
-  margin-top: 2rem;
-  padding: 1.8rem 2.4rem;
-  border-radius: 2rem;
+  margin-top: 20px;
+  padding: 18px 24px;
+  border-radius: 20px;
   background-color: rgba(255, 255, 255, .04);
 }
 
@@ -247,9 +247,9 @@ main {
   content: "";
   display: block;
   position: absolute;
-  left: calc(50% - 4.9rem / 2);
-  width: 4.9rem;
-  height: 4.9rem;
+  left: calc(50% - 49px / 2);
+  width: 49px;
+  height: 49px;
   border-radius: 50%;
   background: #40A5F3 url(../images/arrow.png) no-repeat center;
   cursor: pointer;
@@ -265,7 +265,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 2rem 0 2.6rem;
+  margin: 20px 0 26px;
   font-size: 2.6rem;
   font-weight: 600;
   letter-spacing: .2rem;
@@ -275,17 +275,17 @@ main {
 .choose-coin a {
   display: flex;
   align-items: center;
-  gap: .6rem;
+  gap: 6px;
 }
 
 .choose-coin a::after {
   content: "";
   display: block;
-  margin-bottom: .4rem;
-  width: .7rem;
-  height: .7rem;
-  border-right: .25rem solid #fff;
-  border-bottom: .25rem solid #fff;
+  margin-bottom: 4px;
+  width: 7px;
+  height: 7px;
+  border-right: 2.5px solid #fff;
+  border-bottom: 2.5px solid #fff;
   transform: rotate(45deg);
 }
 
@@ -298,26 +298,26 @@ main {
 }
 
 .block-buy {
-  margin: .77rem 0 2rem;
-  padding: 1.8rem 2.4rem;
-  border-radius: 2rem;
+  margin: 7.7px 0 20px;
+  padding: 18px 24px;
+  border-radius: 20px;
   background-color: rgba(255, 255, 255, .2);
 }
 
 .coin-rate {
   display: flex;
   align-items: center;
-  gap: 1.2rem;
-  margin-bottom: 2rem;
-  padding: .9rem 0 .9rem 2.1rem;
-  border-radius: 1rem;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding: 9px 0 9px 21px;
+  border-radius: 10px;
   color: rgba(255, 255, 255, .7);
   background-color: rgba(255, 255, 255, .04);
 }
 
 .coin-rate svg {
-  width: 2rem;
-  height: 2rem;
+  width: 20px;
+  height: 20px;
   opacity: .7;
 }
 
@@ -334,17 +334,17 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-  padding: 1.6rem 0;
-  border-radius: 1.4rem;
+  gap: 10px;
+  padding: 16px 0;
+  border-radius: 14px;
   font-size: 1.6rem;
   font-weight: 600;
   background-color: #40A5F3;
 }
 
 .btn svg {
-  width: 1.8rem;
-  height: 1.8rem;
+  width: 18px;
+  height: 18px;
 }
 
 /* Footer
@@ -353,45 +353,45 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 4.4rem;
+  margin-bottom: 44px;
   font-size: 1.6rem;
   color: #BABFC7;
 }
 
 /* Page 2
 ============================================ */
-/* Offer 1
+/* advantages 1
 ============================ */
-.offer {
+.advantages {
   position: relative;
 }
 
-.offer:first-of-type  {
-  margin: 20rem 0 19.4rem;
+.advantages:first-of-type  {
+  margin: 200px 0 194px;
 }
 
-.offer h2 {
-  max-width: 49.4rem;
-  margin-bottom: 4rem;
+.advantages h2 {
+  max-width: 494px;
+  margin-bottom: 40px;
   font-family: "Atyp Display";
   font-size: 9rem;
   line-height: 1.1;
 }
 
-.offer p {
-  max-width: 49.4rem;
-  margin-bottom: 2rem;
+.advantages p {
+  max-width: 494px;
+  margin-bottom: 20px;
   font-size: 1.8rem;
   color: rgba(255, 255, 255, .7);
 }
 
-.offer a {
-  display: inline-block;
-  max-width: 46rem;
+.advantages a {
+  display: block;
+  max-width: 460px;
   width: 100%;
-  margin-bottom: 9.8rem;
-  padding: 1.35rem 0;
-  border-radius: 1.4rem;
+  margin-bottom: 98px;
+  padding: 13.5px 0;
+  border-radius: 14px;
   font-size: 1.6rem;
   font-weight: 600;
   text-align: center;
@@ -401,13 +401,14 @@ main {
 
 .text-block {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  padding: 3rem 0;
-  border-radius: 2rem;
+  padding: 30px 0;
+  border-radius: 20px;
   text-align: center;
   background-color: #222342;
-  box-shadow: 0 .4rem 4rem rgba(0, 0, 0, .25);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
 }
 
 .inner__number {
@@ -425,72 +426,67 @@ main {
 
 .hand_img {
   position: absolute;
-  right: -9.6rem;
-  bottom: 10rem;
+  right: -96px;
+  bottom: 100px;
   z-index: -1;
-  max-width: 96rem;
-  min-height: 85.2rem;
-  width: 100%;
-  height: 100%;
+  max-width: 960px;
 }
 
 .eclipse_img {
   position: absolute;
-  top: -25rem;
-  left: -10rem;
+  top: -250px;
+  left: -100px;
   z-index: -1;
-  max-width: 79.3rem;
-  min-height: 78.5rem;
-  width: 100%;
-  height: 100%;
+  max-width: 793px;
 }
 
-/* Offer 2
+/* advantages 2
 ============================ */
-.offer:nth-of-type(2)  {
-  margin-bottom: 25.8rem;
+.advantages_mod  {
+  margin-bottom: 258px;
 }
 
-.offer .offer-title {
-  max-width: 58.5rem;
+.advantages_mod h2 {
+  max-width: 585px;
 }
 
-.offer .offer-text {
-  max-width: 55rem;
+.advantages_mod p {
+  max-width: 550px;
 }
 
-.offer .offer-link {
-  display: inline-block;
-  max-width: 32.9rem;
-  margin-bottom: 0rem;
+.advantages_mod p:nth-child(-n + 3) {
+  margin-bottom: 0px;
+}
+
+.advantages_mod a {
+  display: block;
+  max-width: 392px;
+  margin-bottom: 0px;
   background-color: rgba(255, 255, 255, .04);
-  box-shadow: 0 .2rem .4rem rgba(0, 0, 0, .7);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .7);
 }
 
 .phone_img {
   position: absolute;
-  right: -8.2rem;
-  bottom: -34.9rem;
+  right: -82px;
+  bottom: -349px;
   z-index: -1;
-  max-width: 97rem;
-  min-height: 107rem;
-  width: 100%;
-  height: 100%;
+  max-width: 970px;
 }
 
 /* Fusion
 ============================ */
 .fusion {
   position: relative;
-  margin-bottom: 18.3rem;
-  padding: 0 4.5rem 4.5rem;
-  border-radius: 2rem;
+  margin-bottom: 183px;
+  padding: 0 45px 45px;
+  border-radius: 20px;
   background: radial-gradient(84.28% 84.28% at 13.06% 61.85%, #164EDD 0%, #40A5F3 60.42%, #3BADEE 89.28%, #40A5F3 100%);
-  box-shadow: 0 .4rem 4rem rgba(0, 0, 0, .25);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
 }
 
 .fusion h1 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 15px;
   font-family: "Atyp Display";
   font-size: 12rem;
 }
@@ -501,31 +497,140 @@ main {
 }
 
 .fusion p:nth-child(-n + 5) {
-  margin-bottom: 2.5rem;
+  margin-bottom: 25px;
 }
 
 .fusion img {
   position: absolute;
   top: 0;
   right: 0;
-  max-width: 54.7rem;
+  max-width: 547px;
   width: 100%;
   height: 100%;
 }
 
-/* Offer 3
+/* advantages 3
 ============================ */
-.offer:last-of-type {
-  margin-bottom: 22.2rem;
+.advantages:last-of-type {
+  margin-bottom: 222px;
 }
 
 .shield_img {
   position: absolute;
-  top: -2.5rem;
+  top: -25px;
   right: 0;
   z-index: -1;
-  max-width: 60rem;
-  min-height: 54.5rem;
-  width: 100%;
-  height: 100%;
+  max-width: 600px;
+}
+
+/* Media
+============================ */
+@media screen and (max-width: 1280px) {
+  html {
+    font-size: 61%;
+  }
+  .advantages:first-of-type {
+    margin: 140px 0 160px
+  }
+  .hand_img {
+    max-width: 860px;
+  }
+  .advantages_mod {
+    margin-bottom: 230px;
+  }
+  .phone_img {
+    bottom: -300px;
+    max-width: 870px;
+  }
+  .fusion {
+    margin-bottom: 150px;
+  }
+  .fusion h1 {
+    font-size: 11rem;
+  }
+  .fusion p:nth-child(-n + 5) {
+    display: none;
+  }
+  .shield_img {
+    max-width: 545px;
+  }
+  .advantages:last-of-type {
+    margin-bottom: 180px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  html {
+    font-size: 60%;
+  }
+  .hand_img {
+    display: none;
+  }
+  .eclipse_img {
+    display: none;
+  }
+  .advantages:first-of-type {
+    margin: 120px 0 120px;
+  }
+  .advantages h2 {
+    max-width: 900px;
+    margin: 0 auto 40px;
+    text-align: center;
+  }
+  .advantages p {
+    margin: 0 auto 20px;
+    text-align: center;
+  }
+  .advantages a {
+    margin: 0 auto 98px;
+  }
+  .text-block__inner {
+    flex-basis: 50%;
+  }
+  .text-block__inner:nth-child(-n + 2) {
+    margin-bottom: 30px;
+  }
+  .advantages_mod {
+    margin-bottom: 150px;
+  }
+  .advantages_mod p {
+    max-width: 700px;
+    text-align: left;
+  }
+  .advantages_mod p:nth-child(-n + 3) {
+    margin-bottom: 20px;
+  }
+  .phone_img {
+    display: none;
+  }
+  .fusion {
+    margin-bottom: 120px;
+  }
+  .fusion p {
+    margin-bottom: 20px;
+  }
+  .advantages:last-of-type {
+    margin-bottom: 140px;
+  }
+  .shield_img {
+    display: none;
+  }
+  .footer p:last-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .logo-group {
+    gap: 10px;
+  }
+  .logo-group span {
+    display: none;
+  }
+  .advantages h2 {
+    font-size: 8rem;
+  }
+  .fusion h1 {
+    font-size: 10rem;
+  }
 }
