@@ -1,0 +1,502 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.woff2") format("woff2"),
+       url("../fonts/Poppins-Regular.woff") format("woff"),
+       url("../fonts/Poppins-Regular.ttf") format("truetype");
+       font-style: normal;
+       font-weight: 400;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Medium.woff2") format("woff2"),
+       url("../fonts/Poppins-Medium.woff") format("woff"),
+       url("../fonts/Poppins-Medium.ttf") format("truetype");
+       font-style: normal;
+       font-weight: 500;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"),
+       url("../fonts/Poppins-SemiBold.woff") format("woff"),
+       url("../fonts/Poppins-SemiBold.ttf") format("truetype");
+       font-style: normal;
+       font-weight: 600;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Bold.woff2") format("woff2"),
+       url("../fonts/Poppins-Bold.woff") format("woff"),
+       url("../fonts/Poppins-Bold.ttf") format("truetype");
+       font-style: normal;
+       font-weight: 700;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-ExtraBold.woff2") format("woff2"),
+       url("../fonts/Poppins-ExtraBold.woff") format("woff"),
+       url("../fonts/Poppins-ExtraBold.ttf") format("truetype");
+       font-style: normal;
+       font-weight: 800;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"),
+       url("../fonts/Montserrat-Regular.woff") format("woff"),
+       url("../fonts/Montserrat-Regular.ttf") format("truetype");
+       font-style: normal;
+       font-weight: 400;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Medium.woff2") format("woff2"),
+       url("../fonts/Montserrat-Medium.woff") format("woff"),
+       url("../fonts/Montserrat-Medium.ttf") format("truetype");
+       font-style: normal;
+       font-weight: 500;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-SemiBold.woff2") format("woff2"),
+       url("../fonts/Montserrat-SemiBold.woff") format("woff"),
+       url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+       font-style: normal;
+       font-weight: 600;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Bold.woff2") format("woff2"),
+       url("../fonts/Montserrat-Bold.woff") format("woff"),
+       url("../fonts/Montserrat-Bold.ttf") format("truetype");
+       font-style: normal;
+       font-weight: 700;
+}
+
+@font-face {
+  font-family: "Atyp Display";
+  src: url("../fonts/AtypDisplay-Semibold.woff2") format("woff2"),
+       url("../fonts/AtypDisplay-Semibold.woff") format("woff"),
+       url("../fonts/AtypDisplay-Semibold.ttf") format("truetype");
+       font-style: normal;
+       font-weight: 600;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font: 400 62.5%/1.4 "Poppins", "Montserrat", "Atyp Display", sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #19172F;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 127.8rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Header
+============================ */
+.logo-group {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding-top: 4.5rem;
+}
+
+.logo-group a {
+  display: flex;
+  align-items: center;
+}
+
+.logo-group > a {
+  gap: .6rem;
+}
+
+.logo-group span {
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.nav ul {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, .7);
+}
+
+.nav .active_inner {
+  font-weight: 600;
+  color: #40A5F3;
+}
+
+.options {
+  margin-left: auto;
+}
+
+.options ul {
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, .7);
+}
+
+.options__inner {
+  margin-right: .5rem;
+  border-radius: 3rem;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  background-color: #222342;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, .25);
+}
+
+.options__inner:first-child {
+  text-transform: uppercase;
+}
+
+.options__inner:last-child {
+  margin-right: 0;
+}
+
+.options__inner a {
+  gap: .4rem;
+  padding: .8rem .7rem;
+}
+
+.options__inner:first-child a::after {
+  content: "";
+  display: block;
+  width: .55rem;
+  height: .55rem;
+  margin: 0 0 .3rem .3rem;
+  border-right: .2rem solid rgba(255, 255, 255, .7);
+  border-bottom: .2rem solid rgba(255, 255, 255, .7);
+  transform: rotate(45deg);
+}
+
+.options__inner svg {
+  width: 1.8rem;
+  height: 1.8rem;
+  opacity: .7;
+}
+
+/* Main
+============================ */
+main {
+  margin: 5rem 0 28.6rem;
+}
+
+.exchange {
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 52.3rem;
+  border-radius: 2rem;
+  background: linear-gradient(180deg, #222342 0%, rgba(34, 35, 66, .2) 100%);
+  filter: drop-shadow(0px 4px 40px rgba(0, 0, 0, 0.25));
+}
+
+.toggle {
+  font-size: 1.8rem;
+  color: rgba(255, 255, 255, .3);
+}
+
+.toggle:first-child {
+  margin-right: 1.4rem;
+}
+
+.toggle_active {
+  font-weight: 600;
+  color: #fff;
+}
+
+.block-sell {
+  position: relative;
+  margin-top: 2rem;
+  padding: 1.8rem 2.4rem;
+  border-radius: 2rem;
+  background-color: rgba(255, 255, 255, .04);
+}
+
+.block-sell::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: calc(50% - 4.9rem / 2);
+  width: 4.9rem;
+  height: 4.9rem;
+  border-radius: 50%;
+  background: #40A5F3 url(../images/arrow.png) no-repeat center;
+  cursor: pointer;
+}
+
+.block-sell > span,
+.block-buy > span {
+  font-size: 1.8rem;
+  color: rgba(255, 255, 255, .7);
+}
+
+.choose-coin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0 2.6rem;
+  font-size: 2.6rem;
+  font-weight: 600;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+}
+
+.choose-coin a {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+
+.choose-coin a::after {
+  content: "";
+  display: block;
+  margin-bottom: .4rem;
+  width: .7rem;
+  height: .7rem;
+  border-right: .25rem solid #fff;
+  border-bottom: .25rem solid #fff;
+  transform: rotate(45deg);
+}
+
+.cost-coin {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color:rgba(255, 255, 255, .7);
+}
+
+.block-buy {
+  margin: .77rem 0 2rem;
+  padding: 1.8rem 2.4rem;
+  border-radius: 2rem;
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.coin-rate {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+  padding: .9rem 0 .9rem 2.1rem;
+  border-radius: 1rem;
+  color: rgba(255, 255, 255, .7);
+  background-color: rgba(255, 255, 255, .04);
+}
+
+.coin-rate svg {
+  width: 2rem;
+  height: 2rem;
+  opacity: .7;
+}
+
+.coin-rate span {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.coin-rate .blue {
+  color: #40A5F3;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.6rem 0;
+  border-radius: 1.4rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  background-color: #40A5F3;
+}
+
+.btn svg {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+/* Footer
+============================ */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4.4rem;
+  font-size: 1.6rem;
+  color: #BABFC7;
+}
+
+/* Page 2
+============================================ */
+/* Offer 1
+============================ */
+.offer:first-of-type  {
+  position: relative;
+  margin: 20rem 0 19.4rem;
+}
+
+.subscription {
+  position: relative;
+}
+
+.offer h2 {
+  max-width: 49.4rem;
+  margin-bottom: 4rem;
+  font-family: "Atyp Display";
+  font-size: 9rem;
+  line-height: 1.1;
+}
+
+.offer p {
+  max-width: 49.4rem;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  color: rgba(255, 255, 255, .7);
+}
+
+.offer a {
+  display: inline-block;
+  max-width: 46rem;
+  width: 100%;
+  margin-bottom: 9.8rem;
+  padding: 1.35rem 0;
+  border-radius: 1.4rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #40A5F3;
+}
+
+.text-block {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3rem 0;
+  border-radius: 2rem;
+  text-align: center;
+  background-color: #222342;
+  box-shadow: 0 .4rem 4rem rgba(0, 0, 0, .25);
+}
+
+.inner__number {
+  display: block;
+  font-size: 6rem;
+  font-weight: 800;
+  line-height: 9rem;
+  color: #1ABCFE;
+}
+
+.inner__text {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, .7);
+}
+
+.hand_img {
+  position: absolute;
+  right: -9.6rem;
+  bottom: 10rem;
+  z-index: -1;
+  max-width: 96rem;
+  min-height: 85.2rem;
+  width: 100%;
+  height: 100%;
+}
+
+.eclipse {
+  position: absolute;
+  top: -25rem;
+  left: -10rem;
+  z-index: -1;
+  max-width: 79.3rem;
+  min-height: 78.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+/* Offer 2
+============================ */
+.offer:nth-of-type(2)  {
+  margin-bottom: 25.8rem;
+}
+
+.offer .offer-title {
+  max-width: 58.5rem;
+}
+
+.offer .offer-text {
+  max-width: 55rem;
+}
+
+.offer .offer-link {
+  display: inline-block;
+  max-width: 32.9rem;
+  margin-bottom: 0rem;
+  background-color: rgba(255, 255, 255, .04);
+  box-shadow: 0 .2rem .4rem rgba(0, 0, 0, .7);
+}
+
+/* Fusion
+============================ */
+.fusion {
+  position: relative;
+  margin-bottom: 18.3rem;
+  padding: 0 4.5rem 4.5rem;
+  border-radius: 2rem;
+  background: radial-gradient(84.28% 84.28% at 13.06% 61.85%, #164EDD 0%, #40A5F3 60.42%, #3BADEE 89.28%, #40A5F3 100%);
+  box-shadow: 0 .4rem 4rem rgba(0, 0, 0, .25);
+}
+
+.fusion h1 {
+  margin-bottom: 1.5rem;
+  font-family: "Atyp Display";
+  font-size: 12rem;
+}
+
+.fusion p {
+  font-size: 1.8rem;
+  letter-spacing: .02rem;
+}
+
+.fusion p:nth-child(-n + 5) {
+  margin-bottom: 2.5rem;
+}
+
+.fusion img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 54.7rem;
+  width: 100%;
+  height: 100%;
+}
