@@ -118,6 +118,8 @@ ul {
   padding: 0 1.5rem;
 }
 
+/* Page 1
+============================================ */
 /* Header
 ============================ */
 .logo-group {
@@ -507,6 +509,23 @@ main {
   top: 0;
   right: 0;
   max-width: 54.7rem;
+  width: 100%;
+  height: 100%;
+}
+
+/* Offer 3
+============================ */
+.offer:last-of-type {
+  margin-bottom: 22.2rem;
+}
+
+.shield_img {
+  position: absolute;
+  top: -2.5rem;
+  right: 0;
+  z-index: -1;
+  max-width: 60rem;
+  min-height: 54.5rem;
   width: 100%;
   height: 100%;
 }
