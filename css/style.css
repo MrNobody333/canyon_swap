@@ -360,13 +360,12 @@ main {
 ============================================ */
 /* Offer 1
 ============================ */
-.offer:first-of-type  {
+.offer {
   position: relative;
-  margin: 20rem 0 19.4rem;
 }
 
-.subscription {
-  position: relative;
+.offer:first-of-type  {
+  margin: 20rem 0 19.4rem;
 }
 
 .offer h2 {
@@ -433,7 +432,7 @@ main {
   height: 100%;
 }
 
-.eclipse {
+.eclipse_img {
   position: absolute;
   top: -25rem;
   left: -10rem;
@@ -464,6 +463,17 @@ main {
   margin-bottom: 0rem;
   background-color: rgba(255, 255, 255, .04);
   box-shadow: 0 .2rem .4rem rgba(0, 0, 0, .7);
+}
+
+.phone_img {
+  position: absolute;
+  right: -8.2rem;
+  bottom: -34.9rem;
+  z-index: -1;
+  max-width: 97rem;
+  min-height: 107rem;
+  width: 100%;
+  height: 100%;
 }
 
 /* Fusion
