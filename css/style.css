@@ -214,6 +214,11 @@ ul {
   opacity: .7;
 }
 
+.options__inner img {
+  width: 18px;
+  height: 18px;
+}
+
 /* Main
 ============================ */
 main {
@@ -723,9 +728,6 @@ main {
 }
 
 @media screen and (max-width: 730px) {
-  html {
-    font-size: 58%;
-  }
   .nav {
     display: none;
   }
@@ -762,9 +764,6 @@ main {
 }
 
 @media screen and (max-width: 630px) {
-  html {
-    font-size: 55%;
-  }
   .logo-group {
     display: block;
   }
@@ -844,10 +843,6 @@ main {
     left: 10px;
     border: 3.5px solid #40A5F3;
     border-radius: 50%;
-  }
-  .logo-group img {
-    width: 26px;
-    height: 26px;
   }
   .logo-group span {
     font-size: 16px;
