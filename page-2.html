@@ -9,30 +9,27 @@
   </head>
   <body>
     <div class="container">
-      
       <header class="header">
         <div class="logo-group">
           <a href="#">
             <img src="images/logo.svg" alt="">
             <span>canyon swap</span>
           </a>
-          <navbar class="nav">
-            <ul>
-              <li class="nav__inner">
-                <a href="index.html">Главная</a>
-              </li>
-              <li class="nav__inner active_inner">
-                <a href="page-2.html">Лендинг</a>
-              </li>
-              <li class="nav__inner">
-                <a href="#">FAQ</a>
-              </li>
-              <li class="nav__inner">
-                <a href="#">Обратная связь</a>
-              </li>
-            </ul>
-          </navbar>
-          <div class="options">
+          <ul class="nav">
+            <li class="nav__inner">
+              <a href="index.html">Главная</a>
+            </li>
+            <li class="nav__inner active_inner">
+              <a href="page-2.html">Лендинг</a>
+            </li>
+            <li class="nav__inner">
+              <a href="#">FAQ</a>
+            </li>
+            <li class="nav__inner">
+              <a href="#">Обратная связь</a>
+            </li>
+          </ul>
+          <div class="options disable">
             <ul>
               <li class="options__inner">
                 <a href="#"><svg><use xlink:href="sprite.svg#globe"></use></svg>Ru</a>
@@ -70,8 +67,11 @@
             <span class="inner__text">Total wallets</span>
           </div>
         </div>
-        <img class="hand_img" src="images/hand.png" alt="">
-        <img class="eclipse_img" src="images/Ellipse_1.png" alt="">
+        <picture>
+          <source media="(max-width: 450px)" srcset="images/mobile_img/mobile_hand.png">
+          <img class="hand_img" src="images/desktop_img/desktop_hand.png" alt="">
+        </picture>
+        <img class="eclipse_img" src="images/desktop_img/ellipse.png" alt="">
       </section>
 
       <section class="advantages advantages_mod">
@@ -79,8 +79,11 @@
         <p>1inch instantly analyzes thousands of quotes and fees across multiple DEXes to provide users with the best rates.</p>
         <p>1inch instantly analyzes thousands of quotes and fees across multiple DEXes to provide users with the best rates.</p>
         <p>1inch instantly analyzes thousands of quotes and fees across multiple DEXes to provide users with the best rates.</p>
-        <a class="offer-link" href="">Swap</a>
-        <img class="phone_img" src="images/phone.png">
+        <a href="">Swap</a>
+        <picture>
+          <source media="(max-width: 450px)" srcset="images/mobile_img/mobile_phone.png">
+          <img class="phone_img" src="images/desktop_img/desktop_phone.png" alt="">
+        </picture>
       </section>
 
       <section class="fusion">
@@ -99,15 +102,38 @@
         <h2>Your finance shield</h2>
         <p>1inch instantly analyzes thousands of quotes and fees across multiple DEXes to provide users with the best rates.</p>
         <p>1inch instantly analyzes thousands of quotes and fees across multiple DEXes to provide users with the best rates.</p>
-        <p>1inch instantly analyzes thousands of quotes and fees across multiple DEXes to provide users with the best rates.</p>
-        <img class="shield_img" src="images/shield.png" alt="">
+        <p id="null">1inch instantly analyzes thousands of quotes and fees across multiple DEXes to provide users with the best rates.</p>
+        <img class="shield_img" src="images/desktop_img/shield.png" alt="">
       </section>
-    
-      <footer class="footer">
-        <p>Copyright. @ 2023 Corp Name Все права защищены</p>
-        <p><a href="#">Пользовательское соглашение</a> | <a href="#">Политика конфиденциальности</a></p>
-      </footer>
-
     </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__desktop">
+          <p>Copyright. @ 2023 Corp Name Все права защищены</p>
+          <p><a href="#">Пользовательское соглашение</a> | <a href="#">Политика конфиденциальности</a></p>
+        </div>
+      </div>
+      <div class="footer__mobile">
+        <ul>
+          <li class="footer__icon">
+            <a href="index.html"><svg class="icon_1"><use xlink:href="sprite.svg#icon_1"></use></svg></a>
+          </li>
+          <li class="footer__icon">
+            <a href="#"><svg class="icon_2"><use xlink:href="sprite.svg#icon_2"></use></svg></a>
+          </li>
+          <li class="footer__icon">
+            <a href="#"><svg class="icon_3"><use xlink:href="sprite.svg#icon_3"></use></svg></a>
+          </li>
+          <li class="footer__icon">
+            <a href="#"><svg class="icon_4"><use xlink:href="sprite.svg#icon_4"></use></svg></a>
+          </li>
+          <li class="footer__icon active_icon">
+            <a href="page-2.html"><svg class="icon_5"><use xlink:href="sprite.svg#icon_5"></use></svg></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
   </body>
 </html>

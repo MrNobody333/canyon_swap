@@ -9,29 +9,26 @@
   </head>
   <body>
     <div class="container">
-
       <header class="header">
         <div class="logo-group">
-          <a href="#">
+          <a class="disable" href="#">
             <img src="images/logo.svg" alt="">
             <span>canyon swap</span>
           </a>
-          <navbar class="nav">
-            <ul>
-              <li class="nav__inner active_inner">
-                <a href="index.html">Главная</a>
-              </li>
-              <li class="nav__inner">
-                <a href="page-2.html">Лендинг</a>
-              </li>
-              <li class="nav__inner">
-                <a href="#">FAQ</a>
-              </li>
-              <li class="nav__inner">
-                <a href="#">Обратная связь</a>
-              </li>
-            </ul>
-          </navbar>
+          <ul class="nav">
+            <li class="nav__inner active_inner">
+              <a href="index.html">Главная</a>
+            </li>
+            <li class="nav__inner">
+              <a href="page-2.html">Лендинг</a>
+            </li>
+            <li class="nav__inner">
+              <a href="#">FAQ</a>
+            </li>
+            <li class="nav__inner">
+              <a href="#">Обратная связь</a>
+            </li>
+          </ul>
           <div class="options">
             <ul>
               <li class="options__inner">
@@ -68,12 +65,35 @@
           <a class="btn" href="#"><svg><use xlink:href="sprite.svg#wallet"></use></svg>Connect wallet</a>
         </div>
       </main>
-    
-      <footer class="footer">
-        <p>Copyright. @ 2023 Corp Name Все права защищены</p>
-        <p><a href="#">Пользовательское соглашение</a> | <a href="#">Политика конфиденциальности</a></p>
-      </footer>
-
     </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__desktop">
+          <p>Copyright. @ 2023 Corp Name Все права защищены</p>
+          <p><a href="#">Пользовательское соглашение</a> | <a href="#">Политика конфиденциальности</a></p>
+        </div>
+      </div>
+      <div class="footer__mobile">
+        <ul>
+          <li class="footer__icon active_icon">
+            <a href="index.html"><svg class="icon_1"><use xlink:href="sprite.svg#icon_1"></use></svg></a>
+          </li>
+          <li class="footer__icon">
+            <a href="#"><svg class="icon_2"><use xlink:href="sprite.svg#icon_2"></use></svg></a>
+          </li>
+          <li class="footer__icon">
+            <a href="#"><svg class="icon_3"><use xlink:href="sprite.svg#icon_3"></use></svg></a>
+          </li>
+          <li class="footer__icon">
+            <a href="#"><svg class="icon_4"><use xlink:href="sprite.svg#icon_4"></use></svg></a>
+          </li>
+          <li class="footer__icon">
+            <a href="page-2.html"><svg class="icon_5"><use xlink:href="sprite.svg#icon_5"></use></svg></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
   </body>
 </html>
