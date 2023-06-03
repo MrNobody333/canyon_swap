@@ -800,6 +800,8 @@ main {
   .block-sell::after {
     width: 32px;
     height: 32px;
+    top: calc(100% - 32px / 2 + 7.7px / 2);
+    left: calc(50% - 32px / 2);
     background-size: 16px;
   }
   .coin-rate svg {
