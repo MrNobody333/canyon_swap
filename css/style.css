@@ -95,11 +95,15 @@
 }
 
 html {
+  height: 100%;
   font: 400 62.5%/1.4 "Poppins", "Montserrat", "Atyp Display", sans-serif;
   color: #fff;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   background-color: #19172F;
 }
 
@@ -113,6 +117,7 @@ ul {
 }
 
 .container {
+  flex-grow: 1;
   max-width: 1288px;
   margin: 0 auto;
   padding: 0 20px;
